@@ -1,5 +1,5 @@
 source 'http://rubygems.org'
-source 'https://bb-m.rubygems.org/quick/Marshal.4.8/pry-0.10.1-i386-mingw32.gemspec.rz'
+source 'http://bb-m.rubygems.org/quick/Marshal.4.8/pry-0.10.1-i386-mingw32.gemspec.rz'
 
 git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
